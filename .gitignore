@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+*.log
+*.json
+!package.json
+!config.example.json
+.DS_Store
+output/
+results/

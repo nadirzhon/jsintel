@@ -1,5 +1,7 @@
 # JSINTEL
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green) ![Tests](https://img.shields.io/badge/tests-passing-success) ![Status](https://img.shields.io/badge/status-active-brightgreen)
+
 JavaScript Intelligence Engine for Bug Bounty.
 
 Modern web apps ship their entire API surface to the browser as JavaScript. Bundlers inline API keys, internal endpoints, and hidden parameters. JSINTEL extracts everything needed to map the attack surface.
@@ -33,3 +35,9 @@ Cloud keys (AWS, Google, Stripe, Heroku, Mailgun, Twilio, SendGrid), auth tokens
 ## License
 
 MIT. For authorized security testing and bug bounty programs only.
+
+## Responsible use
+
+This project is published for **defensive research, education, and authorized security testing only**.
+Use it exclusively on systems you own or have explicit written permission to assess. The author
+assumes no liability for misuse. See `SECURITY.md` for the disclosure policy.

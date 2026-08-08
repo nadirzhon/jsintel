@@ -6,6 +6,12 @@ JavaScript Intelligence Engine for Bug Bounty.
 
 Modern web apps ship their entire API surface to the browser as JavaScript. Bundlers inline API keys, internal endpoints, and hidden parameters. JSINTEL extracts everything needed to map the attack surface.
 
+## Install
+
+```bash
+pip install jsintel        # or: uvx jsintel
+```
+
 ## Features
 
 - Secrets: AWS keys, Stripe keys, GitHub tokens, JWTs, private keys (40+ patterns)
